@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+.ha{
+	width: 300px;
+    height: 44px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li strong {
+    font-style: italic;
+    font-weight: normal;
+  }
+  
+p {color:red;background:gray;padding: 20px;text-indent: 20%;}
+
+[title]
+{
+color:blue;
+}
+
+body{
+	background-image:url('/Practice/image/1.jpg');
+}
+div {width: 500px;}
+h1.spread {word-spacing: 30px;}
+p.tight {word-spacing: -0.5em;}
+
+

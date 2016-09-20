@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content>
+  <meta name="author" content>  
+  <link rel="stylesheet" 
+  href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <title>sign in</title>
+  <link href="/Practice/css/css1.css" rel="stylesheet">
+  
+</head>
+<body>
+<div class="container">
+<form class="form-signin" action="/husky/login" method="post">
+<h2 class="form-signin-heading" >Please sign in</h2>
+<label for="inputEmail" class="sr-only" >Email address</label>
+<input type="text" name="firstname" class="form-control"  id="inputEmail"  placeholder="username" required autofocus 
+style="
+    width: 300px;
+    height: 44px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+">
+<label for="inputPassword" class="sr-only">Password</label>
+<input type="password" id="inputPassword" class="form-control"placeholder="Password" required autofocus
+style="
+    width: 300px;
+    height: 44px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+">
+<div class="checkbox" >
+<label>
+<input type="checkbox" value="rememberme">remember me
+</label>
+</div>
+<button class="btn btn-lg btn-primary btn-block" type="submit" 
+style="
+    width: 300px;
+    height: 44px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+">Sign in</button>
+</form>
+</div>
+</body>
+</html>
